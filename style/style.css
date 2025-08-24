@@ -55,12 +55,12 @@ body{
 .clear, .plus-minus, .percentage{
     color: #ff4500;
 }
-#operator, #operator-second, #operator-third, #operator-fourth, #operator-fifth{
-    background-color: #ff4500;
+.operator{
+    color: #ff4500;
     border: none;
 }
-#operator:hover, #operator-second:hover, #operator-third:hover, #operator-fourth:hover, #operator-fifth:hover{
-   color: #ff4500;
+.operator:hover, .operator-second:hover, .operator-third:hover, .operator-fourth:hover, .operator-fifth:hover{
+   color: black;
    background-color: white;
    transition-duration: 400ms;
 }
